@@ -1,0 +1,145 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    margin-left: 120px;
+}
+.Page-First-View{
+   
+}
+.Nav-Bar{
+    display: flex;
+    margin-bottom: 148.5px;
+} 
+.Nav-Option{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 34px;
+}
+.Nav-Option a{
+    text-decoration: none;
+    
+    color: black;
+}
+.Front-Page{
+    display: flex;
+    
+}
+.Front-Content{
+    width: 582px;
+    height: 270px;
+    margin-right: 13px;
+    margin-right: 133px;
+}
+.Button{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    padding: 10px 24px;
+    border: none;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.fa-arrow-right{
+    margin: 0px 8px;
+    width: 24px;
+    height: 24px;
+}
+.Front-Image img{
+    width: 440px;
+    height: 414px;
+    
+}
+
+/* log section  */
+.Web-Logo{
+    
+
+}
+
+.Logos{
+    
+}
+.all{
+    margin: 36px 61px;
+    display: flex; 
+    
+}
+.Logo img{
+    
+    margin-right: 17px;
+    width: 97.06px;
+    height: 28px; 
+}
+
+/* Popular Collection Styles */
+.Popular-Collection{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Collection-Item{
+   
+}
+.Collection-Header{
+    font-weight: 600;
+font-size: 28px;
+color: #3A3A3A;
+text-align: center;
+margin-bottom: 30px;
+}
+.Collection{
+    width: 329px;
+height: 476px;
+margin: 17px 15px;
+background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.Collection-Pic img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    margin: 17px 14px;
+}
+.Collection-Info{
+    margin: 17px 14px;
+}
+.Info-Header{
+    font-style: normal;
+font-weight: 500;
+font-size: 28px;
+color: #18191F;
+margin-top: 16px;
+margin-bottom: 6px;
+}
+.Price{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 6px;
+}
+.Rating-Star{
+    color: #FB8200;
+    width: 122px;
+height: 32px;
+display: inline;
+}
+span{
+    margin-left: 8px;
+    font-size: 14px;
+    color: #5E6366;
+    font-weight: bold;
+}
+.Info{
+    height: 61px;
+    color: #787885;
+    margin: 3px 0;
+}
