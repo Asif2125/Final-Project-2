@@ -15,6 +15,13 @@ main{
     flex-wrap: wrap;
     justify-items: center;
 
+
+    transition: width 10s linear, height 10s linear, transform 10s;
+ 
+}
+.cam:hover{
+        transform: rotate(30deg);
+        transform-origin: top;
 }
 .Nav-Bar{
     margin-top: 45px;
@@ -103,7 +110,7 @@ height: 270px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    
+    margin-bottom: 100px;
 }
 .Collection-Item{
     margin-top: 30px;
@@ -179,11 +186,40 @@ span{
     color: #E02C6DDE;
     text-decoration: none;
 }
+/* My Part  
+--------------------------------------------
+-------------------*/
+.calender{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 25px repeat(5, 1fr);
+    /* grid-template-columns: 150px 150px 1fr 1fr; */
+    font-size: 2em;
+    grid-gap: 1em;
+}
+#day{
+    text-align: center;
+}
+.date, .day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: gray;
+}
+.other-month, .day{
+    background-color: lightgray;
+}
+.day{
+    font-size: 10px;
+}
 
 
 
-
-/* Footer Style  */
+/* Footer Style 
+--------------------------------------------
+-------------------*/
 footer{
     width: 1254px;
     height: 239px;
