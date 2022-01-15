@@ -17,6 +17,7 @@ main{
 
 
     transition: width 10s linear, height 10s linear, transform 10s;
+    
  
 }
 .cam:hover{
